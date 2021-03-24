@@ -1,0 +1,15 @@
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\bin\Debug\net5.0\MISA.AssetManage.ApplicationCore.dll
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\obj\Debug\net5.0\MISA.AssetManage.Infastructer.csprojAssemblyReference.cache
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\obj\Debug\net5.0\MISA.AssetManage.Infastructer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\obj\Debug\net5.0\MISA.AssetManage.Infastructer.AssemblyInfoInputs.cache
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\obj\Debug\net5.0\MISA.AssetManage.Infastructer.AssemblyInfo.cs
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\obj\Debug\net5.0\MISA.AssetManage.Infastructer.csproj.CoreCompileInputs.cache
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\bin\Debug\net5.0\MISA.AssetManage.Infastructer.deps.json
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\bin\Debug\net5.0\MISA.AssetManage.Infastructer.dll
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\bin\Debug\net5.0\ref\MISA.AssetManage.Infastructer.dll
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\bin\Debug\net5.0\MISA.AssetManage.Infastructer.pdb
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\bin\Debug\net5.0\MISA.AssetManage.ApplicationCore.pdb
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\obj\Debug\net5.0\MISA.AssetManage.Infastructer.csproj.CopyComplete
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\obj\Debug\net5.0\MISA.AssetManage.Infastructer.dll
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\obj\Debug\net5.0\ref\MISA.AssetManage.Infastructer.dll
+D:\Users\CONG\Documents\GitHub\MISA.AssetManage\MISA.AssetManage.Infastructer\obj\Debug\net5.0\MISA.AssetManage.Infastructer.pdb
