@@ -35,6 +35,13 @@ namespace MISA.AssetManage.ApplicationCore.Interfaces
         /// <returns></returns>
         ServiceResult UpdateByID(MISAEntity entity);
 
+        /// <summary>
+        /// Xoá 1 bản ghi
+        /// </summary>
+        /// <param name="ids">mảng id bản ghi</param>
+        /// <returns>ServiceResult</returns>
+        public  ServiceResult Delete(string[] ids);
+
         IEnumerable<MISAEntity> Fillter(string? name, Guid? DepartmentId, string? code, Guid? AssetTypeId);
 
     }

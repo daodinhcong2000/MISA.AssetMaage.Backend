@@ -359,19 +359,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DiCo\\.nuget\\packages\\": {}
+    "C:\\Users\\ddcong\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\CONG\\Documents\\GitHub\\MISA.AssetManage\\MISA.AssetManage.API\\MISA.AssetManage.API.csproj",
+      "projectUniqueName": "C:\\Users\\ddcong\\Desktop\\MISA.AssetMaage.Backend\\MISA.AssetManage\\MISA.AssetManage.API\\MISA.AssetManage.API.csproj",
       "projectName": "MISA.AssetManage.API",
-      "projectPath": "D:\\Users\\CONG\\Documents\\GitHub\\MISA.AssetManage\\MISA.AssetManage.API\\MISA.AssetManage.API.csproj",
-      "packagesPath": "C:\\Users\\DiCo\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\CONG\\Documents\\GitHub\\MISA.AssetManage\\MISA.AssetManage.API\\obj\\",
+      "projectPath": "C:\\Users\\ddcong\\Desktop\\MISA.AssetMaage.Backend\\MISA.AssetManage\\MISA.AssetManage.API\\MISA.AssetManage.API.csproj",
+      "packagesPath": "C:\\Users\\ddcong\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ddcong\\Desktop\\MISA.AssetMaage.Backend\\MISA.AssetManage\\MISA.AssetManage.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DiCo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ddcong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -385,11 +385,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Users\\CONG\\Documents\\GitHub\\MISA.AssetManage\\MISA.AssetManage.ApplicationCore\\MISA.AssetManage.ApplicationCore.csproj": {
-              "projectPath": "D:\\Users\\CONG\\Documents\\GitHub\\MISA.AssetManage\\MISA.AssetManage.ApplicationCore\\MISA.AssetManage.ApplicationCore.csproj"
+            "C:\\Users\\ddcong\\Desktop\\MISA.AssetMaage.Backend\\MISA.AssetManage\\MISA.AssetManage.ApplicationCore\\MISA.AssetManage.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\ddcong\\Desktop\\MISA.AssetMaage.Backend\\MISA.AssetManage\\MISA.AssetManage.ApplicationCore\\MISA.AssetManage.ApplicationCore.csproj"
             },
-            "D:\\Users\\CONG\\Documents\\GitHub\\MISA.AssetManage\\MISA.AssetManage.Infastructer\\MISA.AssetManage.Infastructer.csproj": {
-              "projectPath": "D:\\Users\\CONG\\Documents\\GitHub\\MISA.AssetManage\\MISA.AssetManage.Infastructer\\MISA.AssetManage.Infastructer.csproj"
+            "C:\\Users\\ddcong\\Desktop\\MISA.AssetMaage.Backend\\MISA.AssetManage\\MISA.AssetManage.Infastructer\\MISA.AssetManage.Infastructer.csproj": {
+              "projectPath": "C:\\Users\\ddcong\\Desktop\\MISA.AssetMaage.Backend\\MISA.AssetManage\\MISA.AssetManage.Infastructer\\MISA.AssetManage.Infastructer.csproj"
             }
           }
         }
@@ -427,7 +427,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -12,16 +12,16 @@ using MISA.AssetManage.ApplicationCore.Interfaces;
 
 namespace MISA.AssetManage.ApplicationCore.services
 {
-    public class AssetService : baseService<asset>,IAssetService
+    public class AssetService : baseService<Asset>,IAssetService
     {
         #region constructer
-        public AssetService(IBaseRepository<asset> repository) : base(repository)
+        public AssetService(IBaseRepository<Asset> repository) : base(repository)
         {
           
         }
 
         #endregion
-        public IEnumerable<asset> GetAssetByCode(string customerCode)
+        public IEnumerable<Asset> GetAssetByCode(string customerCode)
         {
 
             return null;

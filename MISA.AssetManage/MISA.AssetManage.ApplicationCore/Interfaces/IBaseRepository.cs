@@ -34,7 +34,15 @@ namespace MISA.AssetManage.ApplicationCore.Interfaces
         /// <returns></returns>
         public int UpdateByID(MISAEntity entity);
 
+        /// <summary>
+        /// Xoá object trong database
+        /// </summary>
+        /// <returns>Số object xoá thành công</returns>
+        public int DeleteObject(string[] entityID);
+
         public IEnumerable<MISAEntity> Fillter(string? name, Guid? DepartmentId, string? code, Guid? AssetTypeId);
+
+
 
         MISAEntity GetEntityByProperty(MISAEntity entity, PropertyInfo propertyInfo);
 

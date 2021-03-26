@@ -116,5 +116,23 @@ namespace MISA.AssetManage.API.api
                 return StatusCode(204, res.data);
         }
 
+
+        /// <summary>
+        /// Xoá dữ liệu
+        /// </summary>
+        /// <param name="ids">mảng id của thực thể</param>
+        /// <returns>Response tương ứng cho client(200, 400, ...)</returns>
+        /// CreatedBy: DDCong
+        [HttpDelete]
+        public IActionResult Delete([FromQuery(Name = "ids")] string[] ids)
+        {
+            var res = service.Delete(ids);
+            if (res.MISACode == MISACode.IsValid)
+            {
+                return StatusCode(200, res.data);
+            }
+            else
+                return StatusCode(204, res.data);
+        }
     }
 }

@@ -54,16 +54,16 @@ namespace MISA.AssetManage.Infastructer
         }
 
 
-        public IEnumerable<MISAEntity> Fillter(string? name, Guid? DepartmentId, string? code, Guid? AssetTypeId)
+        public IEnumerable<MISAEntity> Fillter(string? contentFilter)
         {
 
             string proc = $"Proc_Filter{className}";
             var dynamicParam = new DynamicParameters();
             //dynamicParam.Add($"@{className}Id", entityID.ToString());
-            dynamicParam.Add($"@{className}Code", code);
-            dynamicParam.Add($"@{className}Name", name);
-            dynamicParam.Add($"@AssetTypeId", AssetTypeId.ToString());
-            dynamicParam.Add($"@DepartmentId", DepartmentId.ToString());
+            dynamicParam.Add($"@{className}Code", contentFilter, DbType.String);
+            dynamicParam.Add($"@{className}Name", contentFilter, DbType.String);
+            dynamicParam.Add($"@depamentName", contentFilter, DbType.String);
+            dynamicParam.Add($"@AssetType", contentFilter, DbType.String);
             var obj = _dbConnection.Query<MISAEntity>(proc, dynamicParam, commandType: CommandType.StoredProcedure);
             return obj;
         }
@@ -81,6 +81,18 @@ namespace MISA.AssetManage.Infastructer
             string proc = $"Proc_Update{className}ByID";
             var res = _dbConnection.Execute(proc, entity, commandType: CommandType.StoredProcedure);
             return res;
+        }
+
+        
+        public int DeleteObject(string[] ids)
+        {
+            var listId = ids.Select(id => $"'{id}'").ToList();
+            var idsQuery = string.Join(",", listId);
+         
+            var sql = $"DELETE FROM {className} WHERE {className}Id IN ({idsQuery})";
+            var response = _dbConnection.Execute(sql, commandType: CommandType.Text);
+
+            return response;
         }
 
         public MISAEntity GetEntityByProperty(MISAEntity entity, PropertyInfo propertyInfo)

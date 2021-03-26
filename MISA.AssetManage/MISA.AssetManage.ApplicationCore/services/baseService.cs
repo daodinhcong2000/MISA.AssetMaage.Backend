@@ -93,7 +93,22 @@ namespace MISA.AssetManage.ApplicationCore.services
             }
         }
 
-   
+        /// <summary>
+        /// Xoá 1 bản ghi
+        /// </summary>
+        /// <param name="ids">mảng id bản ghi</param>
+        /// <returns>ServiceResult</returns>
+        public virtual ServiceResult Delete(string[] ids)
+        {
+            var response = _repository.DeleteObject(ids);
+            _serviceResult.MISACode = MISACode.IsValid;
+            _serviceResult.data = response;
+            return _serviceResult;
+        
+        }
+
+
+
 
         private bool Validate(MISAEntity entity)
         {
