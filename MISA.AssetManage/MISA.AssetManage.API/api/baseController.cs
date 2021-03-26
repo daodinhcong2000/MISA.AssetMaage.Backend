@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MISA.AssetManage.API.api
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/v1/[controller]s")]
     [ApiController]
     public class baseController<MISAEntities> : ControllerBase
     {
@@ -37,10 +37,27 @@ namespace MISA.AssetManage.API.api
 
         [HttpGet("{entityId}")]
 
-        public IActionResult GetById(Guid entityId)
+        public IActionResult GetById( Guid entityId)
         {
 
             var obj = service.GetAllById(entityId);
+            if (obj != null)
+            {
+                return StatusCode(200, obj);
+            }
+            else
+            {
+                return StatusCode(204, obj);
+            }
+
+        }
+
+        [HttpGet("search")]
+
+        public IActionResult Filter(string? name, Guid? DepartmentId, string? code, Guid? AssetTypeId)
+        {
+
+            var obj = service.Fillter(name, DepartmentId, code, AssetTypeId);
             if (obj != null)
             {
                 return StatusCode(200, obj);

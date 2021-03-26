@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace MISA.AssetManage.ApplicationCore.Interfaces
 {
-    public interface IAssetService: IBaseService<Asset>
+    public interface IAssetService: IBaseService<asset>
     {
 
-        IEnumerable<Asset> GetAssetByCode(String code);
+        IEnumerable<asset> GetAssetByCode(String code);
 
     }
 }

@@ -34,5 +34,8 @@ namespace MISA.AssetManage.ApplicationCore.Interfaces
         /// <param name="entity">Cần sửa những gì thì gửi lên</param>
         /// <returns></returns>
         ServiceResult UpdateByID(MISAEntity entity);
+
+        IEnumerable<MISAEntity> Fillter(string? name, Guid? DepartmentId, string? code, Guid? AssetTypeId);
+
     }
 }

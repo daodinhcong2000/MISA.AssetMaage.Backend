@@ -54,6 +54,20 @@ namespace MISA.AssetManage.Infastructer
         }
 
 
+        public IEnumerable<MISAEntity> Fillter(string? name, Guid? DepartmentId, string? code, Guid? AssetTypeId)
+        {
+
+            string proc = $"Proc_Filter{className}";
+            var dynamicParam = new DynamicParameters();
+            //dynamicParam.Add($"@{className}Id", entityID.ToString());
+            dynamicParam.Add($"@{className}Code", code);
+            dynamicParam.Add($"@{className}Name", name);
+            dynamicParam.Add($"@AssetTypeId", AssetTypeId.ToString());
+            dynamicParam.Add($"@DepartmentId", DepartmentId.ToString());
+            var obj = _dbConnection.Query<MISAEntity>(proc, dynamicParam, commandType: CommandType.StoredProcedure);
+            return obj;
+        }
+
         public int Insert(MISAEntity entity)
         {
 

@@ -4,4 +4,12 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="services\AssetTypeService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="services\AssetTypeService.cs" />
+  </ItemGroup>
+
 </Project>

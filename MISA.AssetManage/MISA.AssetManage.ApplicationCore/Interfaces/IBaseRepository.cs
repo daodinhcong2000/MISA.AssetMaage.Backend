@@ -34,6 +34,8 @@ namespace MISA.AssetManage.ApplicationCore.Interfaces
         /// <returns></returns>
         public int UpdateByID(MISAEntity entity);
 
+        public IEnumerable<MISAEntity> Fillter(string? name, Guid? DepartmentId, string? code, Guid? AssetTypeId);
+
         MISAEntity GetEntityByProperty(MISAEntity entity, PropertyInfo propertyInfo);
 
     }

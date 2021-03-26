@@ -9,9 +9,10 @@ using System.Threading.Tasks;
 
 namespace MISA.AssetManage.API.api
 {
-    public class assetController : baseController<asset>
+  
+    public class assetTypeController : baseController<AssetType>
     {
-        public assetController(IBaseService<asset> baseService):base(baseService)
+        public assetTypeController(IBaseService<AssetType> baseService) : base(baseService)
         {
 
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MISA.AssetManage.ApplicationCore.models
 {
-    public class Asset : BaseEntity
+    public class asset : BaseEntity
     {
         #region declare
         #endregion
