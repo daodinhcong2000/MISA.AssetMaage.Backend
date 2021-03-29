@@ -25,11 +25,6 @@ namespace MISA.AssetManage.ApplicationCore.services
             _repository = repository;
             _serviceResult = new ServiceResult();
         }
-
-        public IEnumerable<MISAEntity> Fillter(string? name, Guid? DepartmentId, string? code, Guid? AssetTypeId)
-        {
-            return _repository.Fillter(name, DepartmentId, code, AssetTypeId);
-        }
         #endregion
 
         public IEnumerable<MISAEntity> GetAll()
@@ -158,5 +153,11 @@ namespace MISA.AssetManage.ApplicationCore.services
 
             return _isValidate;
         }
+
+        public IEnumerable<MISAEntity> Fillter(string contentFilter)
+        {
+            return _repository.Fillter(contentFilter);
+        }
     }
 }
+

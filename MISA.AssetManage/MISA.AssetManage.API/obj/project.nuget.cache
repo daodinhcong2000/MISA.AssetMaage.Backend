@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "I1x1vDdZrcMKkLsZUWUvphR1xuuRVCu0+6pz7uQOdKaE4om7pQwwSvGxr/yh9+xNIVfvwwl/lCQghKpeyfoc0g==",
+  "dgSpecHash": "A7EqC6VQOjgT6r79bdBm7HiXXeb/facTeccVZUEpPELjzEFoXK5seGpAgYQSPy2cFTKYLOqruMSWbp9Il960mw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ddcong\\Desktop\\MISA.AssetMaage.Backend\\MISA.AssetManage\\MISA.AssetManage.API\\MISA.AssetManage.API.csproj",
+  "projectFilePath": "D:\\Users\\CONG\\Documents\\GitHub\\MISA.AssetMaage.Backend\\MISA.AssetManage\\MISA.AssetManage.API\\MISA.AssetManage.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ddcong\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
-    "C:\\Users\\ddcong\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\ddcong\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\ddcong\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "C:\\Users\\ddcong\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\ddcong\\.nuget\\packages\\mysqlconnector\\1.3.2\\mysqlconnector.1.3.2.nupkg.sha512",
-    "C:\\Users\\ddcong\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\ddcong\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\ddcong\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\ddcong\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\DiCo\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\DiCo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\DiCo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\DiCo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\DiCo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\DiCo\\.nuget\\packages\\mysqlconnector\\1.3.2\\mysqlconnector.1.3.2.nupkg.sha512",
+    "C:\\Users\\DiCo\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\DiCo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\DiCo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\DiCo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }

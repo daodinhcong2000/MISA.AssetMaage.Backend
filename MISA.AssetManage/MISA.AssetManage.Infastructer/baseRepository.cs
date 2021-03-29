@@ -54,7 +54,7 @@ namespace MISA.AssetManage.Infastructer
         }
 
 
-        public IEnumerable<MISAEntity> Fillter(string? contentFilter)
+        public IEnumerable<MISAEntity> Fillter(string contentFilter)
         {
 
             string proc = $"Proc_Filter{className}";
@@ -62,8 +62,8 @@ namespace MISA.AssetManage.Infastructer
             //dynamicParam.Add($"@{className}Id", entityID.ToString());
             dynamicParam.Add($"@{className}Code", contentFilter, DbType.String);
             dynamicParam.Add($"@{className}Name", contentFilter, DbType.String);
-            dynamicParam.Add($"@depamentName", contentFilter, DbType.String);
-            dynamicParam.Add($"@AssetType", contentFilter, DbType.String);
+            dynamicParam.Add($"@DepartmentName", contentFilter, DbType.String);
+            dynamicParam.Add($"@AssetTypeName", contentFilter, DbType.String);
             var obj = _dbConnection.Query<MISAEntity>(proc, dynamicParam, commandType: CommandType.StoredProcedure);
             return obj;
         }
@@ -78,7 +78,7 @@ namespace MISA.AssetManage.Infastructer
 
         public int UpdateByID(MISAEntity entity)
         {
-            string proc = $"Proc_Update{className}ByID";
+            string proc = $"Proc_Update{className}";
             var res = _dbConnection.Execute(proc, entity, commandType: CommandType.StoredProcedure);
             return res;
         }
@@ -100,14 +100,14 @@ namespace MISA.AssetManage.Infastructer
             string propertyName = propertyInfo.Name;
             var propertyValue = propertyInfo.GetValue(entity);
             string query = null;
-            var keyValueID = entity.GetType().GetProperty($"{className}Id").GetValue(entity);
+            var keyValueID = entity.GetType().GetProperty($"{className}Id").GetValue(entity).ToString();
             if (entity.EntityState == EntityState.AddNew)
             {
                 query = $"SELECT * FROM {className} where {propertyName} = '{propertyValue}'";
             }
             else if (entity.EntityState == EntityState.Update)
             {
-                query = $"SELECT * FROM {className} where {propertyName} = '{propertyValue}' AND {className}Id <> '{keyValueID.ToString()}' ";
+                query = $"SELECT * FROM {className} where {propertyName} = '{propertyValue}' AND {className}Id <> '{keyValueID}' ";
             }
             else
             {

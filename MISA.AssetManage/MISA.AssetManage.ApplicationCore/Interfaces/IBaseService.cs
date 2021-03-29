@@ -42,7 +42,7 @@ namespace MISA.AssetManage.ApplicationCore.Interfaces
         /// <returns>ServiceResult</returns>
         public  ServiceResult Delete(string[] ids);
 
-        IEnumerable<MISAEntity> Fillter(string? name, Guid? DepartmentId, string? code, Guid? AssetTypeId);
+        IEnumerable<MISAEntity> Fillter(string contentFilter);
 
     }
 }

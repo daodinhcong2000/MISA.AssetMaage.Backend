@@ -11,7 +11,7 @@ namespace MISA.AssetManage.ApplicationCore.models
         /// <summary>
         /// ID bộ phần để tài sản
         /// </summary>
-        public Guid DepartmentID { get; set; }
+        public Guid DepartmentId { get; set; }
         /// <summary>
         /// mã code bộ phận để tài sản
         /// </summary>

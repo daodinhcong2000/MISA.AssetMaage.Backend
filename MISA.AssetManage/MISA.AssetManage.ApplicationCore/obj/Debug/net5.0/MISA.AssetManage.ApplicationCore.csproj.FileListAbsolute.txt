@@ -22,3 +22,15 @@ C:\Users\ddcong\Desktop\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManag
 C:\Users\ddcong\Desktop\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\obj\Debug\net5.0\MISA.AssetManage.ApplicationCore.dll
 C:\Users\ddcong\Desktop\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\obj\Debug\net5.0\ref\MISA.AssetManage.ApplicationCore.dll
 C:\Users\ddcong\Desktop\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\obj\Debug\net5.0\MISA.AssetManage.ApplicationCore.pdb
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\bin\Debug\net5.0\MISA.AssetManage.ApplicationCore.deps.json
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\bin\Debug\net5.0\MISA.AssetManage.ApplicationCore.dll
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\bin\Debug\net5.0\ref\MISA.AssetManage.ApplicationCore.dll
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\bin\Debug\net5.0\MISA.AssetManage.ApplicationCore.pdb
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\obj\Debug\net5.0\MISA.AssetManage.ApplicationCore.csprojAssemblyReference.cache
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\obj\Debug\net5.0\MISA.AssetManage.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\obj\Debug\net5.0\MISA.AssetManage.ApplicationCore.AssemblyInfoInputs.cache
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\obj\Debug\net5.0\MISA.AssetManage.ApplicationCore.AssemblyInfo.cs
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\obj\Debug\net5.0\MISA.AssetManage.ApplicationCore.csproj.CoreCompileInputs.cache
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\obj\Debug\net5.0\MISA.AssetManage.ApplicationCore.dll
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\obj\Debug\net5.0\ref\MISA.AssetManage.ApplicationCore.dll
+D:\Users\CONG\Documents\GitHub\MISA.AssetMaage.Backend\MISA.AssetManage\MISA.AssetManage.ApplicationCore\obj\Debug\net5.0\MISA.AssetManage.ApplicationCore.pdb

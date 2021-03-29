@@ -42,10 +42,6 @@ namespace MISA.AssetManage.ApplicationCore.models
         /// </summary>
         public Guid DepartmentId { get; set; }
         /// <summary>
-        /// ngày ghi tăng
-        /// </summary>
-        public DateTime IncreaseDate { get; set; }
-        /// <summary>
         /// Thời gian sử dụng
         /// </summary>
         public int TimeUse { get; set; }

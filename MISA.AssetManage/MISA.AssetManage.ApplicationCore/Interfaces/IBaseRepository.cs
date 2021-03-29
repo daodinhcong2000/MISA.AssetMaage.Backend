@@ -38,9 +38,14 @@ namespace MISA.AssetManage.ApplicationCore.Interfaces
         /// Xoá object trong database
         /// </summary>
         /// <returns>Số object xoá thành công</returns>
-        public int DeleteObject(string[] entityID);
+        public int DeleteObject(string[] ids);
 
-        public IEnumerable<MISAEntity> Fillter(string? name, Guid? DepartmentId, string? code, Guid? AssetTypeId);
+        /// <summary>
+        /// Tìm kiểm dữ liệu theo tên ,mã phòng ban,loại
+        /// </summary>
+        /// <param name="contentFilter">nội dung tìm kiếm</param>
+        /// <returns></returns>
+        public IEnumerable<MISAEntity> Fillter(string contentFilter);
 
 
 

@@ -54,10 +54,10 @@ namespace MISA.AssetManage.API.api
 
         [HttpGet("search")]
 
-        public IActionResult Filter(string? name, Guid? DepartmentId, string? code, Guid? AssetTypeId)
+        public IActionResult Filter(string contentFilter)
         {
 
-            var obj = service.Fillter(name, DepartmentId, code, AssetTypeId);
+            var obj = service.Fillter(contentFilter);
             if (obj != null)
             {
                 return StatusCode(200, obj);
